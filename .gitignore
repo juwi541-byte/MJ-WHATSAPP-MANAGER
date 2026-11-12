@@ -1,0 +1,57 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+secrets/
+credentials/
+*.pem
+*.key
+
+# WhatsApp sessions and credentials
+sessions/
+auth_info_baileys/
+.auth/
+.whatsapp/
+**/session/
+**/sessions/
+
+# Node.js
+node_modules/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Databases and runtime data
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# Downloads and generated files
+downloads/
+uploads/
+generated/
+qrcodes/
+
+# Build output
+dist/
+build/
+coverage/
+*.egg-info/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
